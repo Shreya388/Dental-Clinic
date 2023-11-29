@@ -80,6 +80,31 @@
             </div>
         </div>
     </div>
+
+    <div class="Appointment">
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card border-0">
+                    <img src="../assets/doctor.jpg" />
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="appointment-content">
+                        <h1>Take the first step towards a healthy smile</h1>
+                        <p>Schedule an Appointment</p>
+
+                        <input class="name" type="text" placeholder="Patients Name" />
+                        <input class="phone" type="number" placeholder="Mobile Number" /><br />
+                        <input class="date" type="date" />
+                        <input class="time" type="time" />
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style>
@@ -102,6 +127,61 @@ body {
     src: url(../assets/Poppins-Medium.ttf);
 }
 
+.name{
+    border: 0;
+    border-bottom: 2px solid #0087b5;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 5px;
+    width: 200px;
+}
+
+.phone{
+    border: 0;
+    border-bottom: 2px solid #0087b5;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 5px;
+    width: 200px;
+}
+
+.date {
+    margin: 5px;
+    border: 0;
+    border-bottom: 2px solid #0087b5;
+    padding: 10px 0;
+    color: grey;
+    width: 200px;
+}
+
+.time{
+    margin: 5px;
+    border: 0;
+    border-bottom: 2px solid #0087b5;
+    padding: 10px 0;
+    color: grey;
+    width: 200px;
+}
+
+.appointment-content{
+    padding: 5rem 2rem;
+    
+}
+
+.appointment-content h1{
+    font-family: PoppinsBold;
+}
+
+.appointment-content p{
+    font-family: PoppinsLight;
+    color: purple;
+}
+
+.doctor-img {
+    background-image: url(../assets/doctor.jpg);
+    background-position: top;
+    border-radius: 5px;
+}
 
 .Services {
     padding: 12rem 0;

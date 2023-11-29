@@ -69,6 +69,8 @@
 
 .Footer {
     background-color: #0083b8;
+    margin-top: 5rem;
+    background-size: cover;
 }
 
 .Footer a {
