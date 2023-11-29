@@ -97,9 +97,8 @@
                         <input class="name" type="text" placeholder="Patients Name" />
                         <input class="phone" type="number" placeholder="Mobile Number" /><br />
                         <input class="date" type="date" />
-                        <input class="time" type="time" />
-                        
-
+                        <input class="time" type="time" /><br/><br />
+                        <button class="book-btn">Book Now</button>
                     </div>
                 </div>
             </div>
@@ -126,6 +125,11 @@ body {
     font-family: PoppinsMedium;
     src: url(../assets/Poppins-Medium.ttf);
 }
+
+*:focus {
+    outline: none;
+}
+
 
 .name{
     border: 0;
@@ -239,6 +243,16 @@ body {
     border-radius: 30px;
     background-color: #222;
     color: white;
+}
+
+
+.book-btn {
+    border-radius: 0;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: 1px solid #222;
+    font-family: PoppinsMedium;
 }
 
 

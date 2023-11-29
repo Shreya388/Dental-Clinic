@@ -52,7 +52,7 @@ body {
 .nav-link {
   color: #555;
   font-size: 20px;
-  font-family: PoppinsLight;
+  font-family: PoppinsMedium;
   padding-left: 20px !important;
   padding-right: 20px !important;
 }
