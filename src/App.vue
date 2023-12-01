@@ -1,26 +1,35 @@
 <script setup>
+import { ref, computed } from 'vue'
+import Home from './Home.vue'
+import About from './About.vue'
+import NotFound from './NotFound.vue'
 import Navbar from './components/Navbar.vue'
-import Header from './components/Header.vue'
-import About from './components/About.vue'
-import Services from './components/Services.vue'
-import Footer from './components/Footer.vue'
+
+const routes = {
+  '/': Home,
+  '/about': About
+}
+
+const currentPath = ref(window.location.hash)
+
+window.addEventListener('hashchange', () => {
+  currentPath.value = window.location.hash
+})
+
+const currentView = computed(() => {
+  return routes[currentPath.value.slice(1) || '/'] || NotFound
+})
 </script>
 
 <template>
-  <main>
-    <Navbar />
-    <Header />
-    <About />
-    <Services />
-    <Footer />
-  </main>
+  <Navbar />
+  <component :is="currentView" />
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
 }
-
 
 @media (min-width: 1024px) {
   header {

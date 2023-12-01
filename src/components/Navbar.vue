@@ -1,4 +1,5 @@
 <script setup>
+
 </script>
 
 <template>
@@ -26,16 +27,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mt-2 mt-lg-0 mx-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#/about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#/non-existent-path">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#/non-existent-path">Appointment</a>
           </li>
         </ul>
         <button class="contact-btn" href="/contact">Contact</button>
