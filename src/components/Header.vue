@@ -11,6 +11,7 @@
                 </div>
                 <div class="col-md-7 col-lg-7">
                     <div class="header-content">
+                        <p class="pre-heading">Dental Clinic</p>
                         <h1>Find a Doctor &
                             Book Appointment</h1>
                         <br />
@@ -49,7 +50,10 @@ body {
 
 
 .Header {
-    margin: 12rem 0;
+    padding: 12rem 0;
+    margin: 8rem 2rem;
+    border-radius: 20px 20px 20px 20px;
+    background-image: url(../assets/texture.jpg);
 }
 
 .Header h1 {
@@ -63,6 +67,10 @@ body {
     font-family: PoppinsLight;
     font-size: 20px;
     color: #4c4c4c;
+}
+
+.pre-heading{
+    color: #017fbb !important;
 }
 
 .header-img {

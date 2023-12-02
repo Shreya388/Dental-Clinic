@@ -231,20 +231,18 @@ body {
 }
 
 .service-btn {
-    border-radius: 30px;
     padding: 10px 20px;
-    background-color: transparent;
-    color: #222;
     border: 1px solid #222;
     font-family: PoppinsMedium;
-}
-
-.service-btn:hover {
     border-radius: 30px;
-    background-color: #222;
+    background-color: #333333;
     color: white;
 }
 
+.service-btn:hover {
+    background-color: transparent;
+    color: #222;
+}
 
 .book-btn {
     border-radius: 0;
@@ -254,7 +252,6 @@ body {
     border: 1px solid #222;
     font-family: PoppinsMedium;
 }
-
 
 .item-img {
     height: 250px;

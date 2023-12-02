@@ -1,5 +1,5 @@
 <script setup>
-
+  
 </script>
 
 <template>
@@ -17,7 +17,7 @@
       
       </div>
     </div> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mt-2 mt-lg-0 mx-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="#/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#/about">About</a>
@@ -38,8 +38,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#/non-existent-path">Appointment</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#/non-existent-path">Testimonials</a>
+          </li>
         </ul>
         <button class="contact-btn" href="/contact">Contact</button>
+        
       </div>
     </div>
   </nav>
@@ -51,11 +55,17 @@ body {
 }
 
 .nav-link {
-  color: #555;
-  font-size: 20px;
+  color: #555 !important;
+  font-size: 18px !important;
   font-family: PoppinsMedium;
   padding-left: 20px !important;
   padding-right: 20px !important;
+}
+
+.active {
+  color: #017fbb !important;
+  font-size: 18px !important;
+  font-family: PoppinsMedium;
 }
 
 

@@ -17,8 +17,8 @@
                         <button class="btn find-btn">Learn More</button>
                     </div>
                 </div>
-                <div class="col-md-5 col-lg-7 mt-4">
-                    <img src="../assets/cover.jpg" alt="image" class="img-fluid about-img" />
+                <div class="col-md-5 col-lg-7">
+                    <img src="../assets/about.jpg" alt="image" class="img-fluid about-img" />
                 </div>
                 
             </div>
@@ -49,7 +49,6 @@ body {
 
 .About {
     padding: 12rem 0;
-    background: #f9f9f9;
 }
 
 .About h1 {

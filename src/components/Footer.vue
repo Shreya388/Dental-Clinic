@@ -3,6 +3,13 @@
 </script>
 
 <template>
+    <div class="submit-email">
+        <div class="container text-center">
+            <input type="text" placeholder="Your Email" />
+            <button class="send">Send</button>
+        </div>
+    </div>
+
     <div class="Footer">
         <div class="container">
             <div class="div-cont">
@@ -66,11 +73,28 @@
     src: url(../assets/Poppins-Medium.ttf);
 }
 
+.submit-email{
+    padding: 8rem 0;
+    background-color: #333333;
+}
+
+.submit-email input{
+    background-color: white;
+    width: 16rem;
+    padding: 10px 10px;
+    border-radius: 0;
+    border: none;
+}
+
+.submit-email button{
+    background-color: #b84400;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+}
 
 .Footer {
-    background-color: #0083b8;
-    margin-top: 5rem;
-    background-size: cover;
+    background: linear-gradient(180deg, #017fbb, #00324a);
 }
 
 .Footer a {
