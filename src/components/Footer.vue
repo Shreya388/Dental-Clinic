@@ -87,9 +87,9 @@
 }
 
 .submit-email button{
-    background-color: #b84400;
+    background-color: #ebebeb;
     padding: 10px 40px;
-    color: white;
+    color: #000;
     border: none;
 }
 
